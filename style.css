@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Libertinus Sans", sans-serif;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.depan {
+    text-align: center;
+    color: red;
+}
+
+.istri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: red;
+    padding: 30px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+#istri{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+.jidih, .baserih {
+    background-color: rgb(4, 170, 18);
+    margin-top: 25px;
+    padding: 30px;
+}
+h3 {
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.jidih-istri, .baserih-istri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+#jidih, #baserih {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
